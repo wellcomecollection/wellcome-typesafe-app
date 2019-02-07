@@ -1,5 +1,5 @@
-name    := "json"
-version := "1.1.1"
+name    := "typesafe-app"
+version := "0.0.0"
 
 organization := "uk.ac.wellcome"
 scalaVersion := "2.12.6"
@@ -25,6 +25,10 @@ scalacOptions ++= Seq(
 publishMavenStyle := true
 
 publishTo := Some(
+  "S3 releases" at "s3://releases.mvn-repo.wellcomecollection.org/"
+)
+
+resolvers ++= Seq(
   "S3 releases" at "s3://releases.mvn-repo.wellcomecollection.org/"
 )
 
