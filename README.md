@@ -1,12 +1,8 @@
-# scala-json
+# wellcome-typesafe-app
 
-[![Build Status](https://travis-ci.org/wellcometrust/scala-json.svg?branch=master)](https://travis-ci.org/wellcometrust/scala-json)
+[![Build Status](https://travis-ci.org/wellcometrust/wellcome-typesafe-app.svg?branch=master)](https://travis-ci.org/wellcometrust/wellcome-typesafe-app)
 
-JSON serialisation code in use at Wellcome:
-
--   `JsonUtil`: Wrappers around Circe
--   `JsonAssertions`: Test helpers for checking if two JSON strings are equal or
-    different.
+Some code that's used as a base for our Scala applications that use Typesafe.
 
 This library is used as part of the [Wellcome Digital Platform][platform].
 
