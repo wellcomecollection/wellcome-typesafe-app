@@ -3,7 +3,7 @@ import sbt._
 object WellcomeDependencies {
   val fixturesLibrary: Seq[ModuleID] = library(
     name = "fixtures",
-    version = "1.0.0"
+    version = "1.2.0"
   )
 
   private def library(name: String, version: String): Seq[ModuleID] = Seq(
