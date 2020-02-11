@@ -1,12 +1,12 @@
 # wellcome-typesafe-app
 
-[![Build Status](https://travis-ci.org/wellcometrust/wellcome-typesafe-app.svg?branch=master)](https://travis-ci.org/wellcometrust/wellcome-typesafe-app)
+[![Build Status](https://travis-ci.org/wellcomecollection/wellcome-typesafe-app.svg?branch=master)](https://travis-ci.org/wellcomecollection/wellcome-typesafe-app)
 
 Some code that's used as a base for our Scala applications that use Typesafe.
 
 This library is used as part of the [Wellcome Digital Platform][platform].
 
-[platform]: https://github.com/wellcometrust/platform
+[platform]: https://github.com/wellcomecollection/platform
 
 ## Installation
 
