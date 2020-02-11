@@ -36,13 +36,4 @@ resolvers ++= Seq(
   "S3 releases" at "s3://releases.mvn-repo.wellcomecollection.org/"
 )
 
-s3CredentialsProvider := { _ =>
-  val builder = new STSAssumeRoleSessionCredentialsProvider.Builder(
-    "arn:aws:iam::760097843905:role/platform-read_only",
-    UUID.randomUUID().toString
-  )
-
-  builder.build()
-}
-
 publishArtifact in Test := true
