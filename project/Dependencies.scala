@@ -16,7 +16,7 @@ object WellcomeDependencies {
 object Dependencies {
 
   lazy val versions = new {
-    val akka     = "2.5.9"
+    val akka     = "2.6.4"
     val typesafe = "1.3.2"
   }
 
