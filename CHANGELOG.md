@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.0 - 2020-04-20
+
+Upgrade akka
+
 ## v1.2.0 - 2020-02-12
 
 An optional maxConnections parameter added to AWSClientConfig.

@@ -1,5 +1,5 @@
 val projectName = "typesafe-app"
-val projectVersion = "1.2.0"
+val projectVersion = "2.0.0"
 
 val settings: Seq[Def.Setting[_]] = Seq(
   scalaVersion := "2.12.6",
