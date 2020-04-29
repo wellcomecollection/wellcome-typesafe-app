@@ -2,7 +2,7 @@
 
 ## v2.0.0 - 2020-04-20
 
-Upgrade akka
+Upgrade Akka from 2.5.9 to 2.6.4.
 
 ## v1.2.0 - 2020-02-12
 
